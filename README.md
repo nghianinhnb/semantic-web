@@ -66,8 +66,7 @@ ORDER BY ?new_label ?old_label
 ### 6. RAG Service (tùy chọn)
 ```bash
 cd rag
-pip install -r requirements.txt
-uvicorn rag_service:app --reload --port 8000
+./start_chatbot.sh
 ```
 
 ## Cấu trúc
