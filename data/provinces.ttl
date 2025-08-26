@@ -1,0 +1,213 @@
+@prefix ex: <http://example.org/vn/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Province a rdfs:Class ;
+    rdfs:label "Province" .
+
+<http://dbpedia.org/resource/An_Giang_Province> a ex:Province ;
+    rdfs:label "An Giang Province"@en .
+
+<http://dbpedia.org/resource/Bà_Rịa-Vũng_Tàu_Province> a ex:Province ;
+    rdfs:label "Bà Rịa-Vũng Tàu Province"@en .
+
+<http://dbpedia.org/resource/Bình_Dương_Province> a ex:Province ;
+    rdfs:label "Bình Dương Province"@en .
+
+<http://dbpedia.org/resource/Bình_Phước_Province> a ex:Province ;
+    rdfs:label "Bình Phước Province"@en .
+
+<http://dbpedia.org/resource/Bình_Thuận_Province> a ex:Province ;
+    rdfs:label "Bình Thuận Province"@en .
+
+<http://dbpedia.org/resource/Bình_Định_Province> a ex:Province ;
+    rdfs:label "Bình Định Province"@en .
+
+<http://dbpedia.org/resource/Bạc_Liêu_Province> a ex:Province ;
+    rdfs:label "Bạc Liêu Province"@en .
+
+<http://dbpedia.org/resource/Bắc_Giang_Province> a ex:Province ;
+    rdfs:label "Bắc Giang Province"@en .
+
+<http://dbpedia.org/resource/Bắc_Kạn_Province> a ex:Province ;
+    rdfs:label "Bắc Kạn Province"@en .
+
+<http://dbpedia.org/resource/Bắc_Ninh_Province> a ex:Province ;
+    rdfs:label "Bắc Ninh Province"@en .
+
+<http://dbpedia.org/resource/Bến_Tre_Province> a ex:Province ;
+    rdfs:label "Bến Tre Province"@en .
+
+<http://dbpedia.org/resource/Cao_Bằng_Province> a ex:Province ;
+    rdfs:label "Cao Bằng Province"@en .
+
+<http://dbpedia.org/resource/Cà_Mau_Province> a ex:Province ;
+    rdfs:label "Cà Mau Province"@en .
+
+<http://dbpedia.org/resource/Cần_Thơ> a ex:Province ;
+    rdfs:label "Cần Thơ"@en .
+
+<http://dbpedia.org/resource/Da_Nang> a ex:Province ;
+    rdfs:label "Da Nang"@en .
+
+<http://dbpedia.org/resource/Gia_Lai_Province> a ex:Province ;
+    rdfs:label "Gia Lai Province"@en .
+
+<http://dbpedia.org/resource/Haiphong> a ex:Province ;
+    rdfs:label "Haiphong"@en .
+
+<http://dbpedia.org/resource/Hanoi> a ex:Province ;
+    rdfs:label "Hanoi"@en .
+
+<http://dbpedia.org/resource/Ho_Chi_Minh_City> a ex:Province ;
+    rdfs:label "Ho Chi Minh City"@en .
+
+<http://dbpedia.org/resource/Hà_Giang_Province> a ex:Province ;
+    rdfs:label "Hà Giang Province"@en .
+
+<http://dbpedia.org/resource/Hà_Nam_Province> a ex:Province ;
+    rdfs:label "Hà Nam Province"@en .
+
+<http://dbpedia.org/resource/Hà_Tây_Province> a ex:Province ;
+    rdfs:label "Hà Tây Province"@en .
+
+<http://dbpedia.org/resource/Hà_Tĩnh_Province> a ex:Province ;
+    rdfs:label "Hà Tĩnh Province"@en .
+
+<http://dbpedia.org/resource/Hòa_Bình_Province> a ex:Province ;
+    rdfs:label "Hòa Bình Province"@en .
+
+<http://dbpedia.org/resource/Hưng_Yên_Province> a ex:Province ;
+    rdfs:label "Hưng Yên Province"@en .
+
+<http://dbpedia.org/resource/Hải_Dương_Province> a ex:Province ;
+    rdfs:label "Hải Dương Province"@en .
+
+<http://dbpedia.org/resource/Hậu_Giang_Province> a ex:Province ;
+    rdfs:label "Hậu Giang Province"@en .
+
+<http://dbpedia.org/resource/Khánh_Hòa_Province> a ex:Province ;
+    rdfs:label "Khánh Hòa Province"@en .
+
+<http://dbpedia.org/resource/Kiên_Giang_Province> a ex:Province ;
+    rdfs:label "Kiên Giang Province"@en .
+
+<http://dbpedia.org/resource/Kon_Tum_Province> a ex:Province ;
+    rdfs:label "Kon Tum Province"@en .
+
+<http://dbpedia.org/resource/Lai_Châu_Province> a ex:Province ;
+    rdfs:label "Lai Châu Province"@en .
+
+<http://dbpedia.org/resource/Long_An_Province> a ex:Province ;
+    rdfs:label "Long An Province"@en .
+
+<http://dbpedia.org/resource/Lào_Cai_Province> a ex:Province ;
+    rdfs:label "Lào Cai Province"@en .
+
+<http://dbpedia.org/resource/Lâm_Đồng_Province> a ex:Province ;
+    rdfs:label "Lâm Đồng Province"@en .
+
+<http://dbpedia.org/resource/Lạng_Sơn_Province> a ex:Province ;
+    rdfs:label "Lạng Sơn Province"@en .
+
+<http://dbpedia.org/resource/Municipalities_of_Vietnam> a ex:Province ;
+    rdfs:label "Municipalities of Vietnam"@en .
+
+<http://dbpedia.org/resource/Nam_Định_Province> a ex:Province ;
+    rdfs:label "Nam Định Province"@en .
+
+<http://dbpedia.org/resource/Nghệ_An_Province> a ex:Province ;
+    rdfs:label "Nghệ An Province"@en .
+
+<http://dbpedia.org/resource/Ninh_Bình_Province> a ex:Province ;
+    rdfs:label "Ninh Bình Province"@en .
+
+<http://dbpedia.org/resource/Ninh_Thuận_Province> a ex:Province ;
+    rdfs:label "Ninh Thuận Province"@en .
+
+<http://dbpedia.org/resource/Phú_Thọ_Province> a ex:Province ;
+    rdfs:label "Phú Thọ Province"@en .
+
+<http://dbpedia.org/resource/Phú_Yên_Province> a ex:Province ;
+    rdfs:label "Phú Yên Province"@en .
+
+<http://dbpedia.org/resource/Provinces_of_Vietnam> a ex:Province ;
+    rdfs:label "Provinces of Vietnam"@en .
+
+<http://dbpedia.org/resource/Provincial_Municipal_Courts_of_Vietnam> a ex:Province ;
+    rdfs:label "Provincial Municipal Courts of Vietnam"@en .
+
+<http://dbpedia.org/resource/Quảng_Bình_Province> a ex:Province ;
+    rdfs:label "Quảng Bình Province"@en .
+
+<http://dbpedia.org/resource/Quảng_Nam_Province> a ex:Province ;
+    rdfs:label "Quảng Nam Province"@en .
+
+<http://dbpedia.org/resource/Quảng_Ngãi_Province> a ex:Province ;
+    rdfs:label "Quảng Ngãi Province"@en .
+
+<http://dbpedia.org/resource/Quảng_Ninh_Province> a ex:Province ;
+    rdfs:label "Quảng Ninh Province"@en .
+
+<http://dbpedia.org/resource/Quảng_Trị_Province> a ex:Province ;
+    rdfs:label "Quảng Trị Province"@en .
+
+<http://dbpedia.org/resource/Six_Provinces_of_Southern_Vietnam> a ex:Province ;
+    rdfs:label "Six Provinces of Southern Vietnam"@en .
+
+<http://dbpedia.org/resource/Sóc_Trăng> a ex:Province ;
+    rdfs:label "Sóc Trăng"@en .
+
+<http://dbpedia.org/resource/Sơn_La_Province> a ex:Province ;
+    rdfs:label "Sơn La Province"@en .
+
+<http://dbpedia.org/resource/Thanh_Hóa_Province> a ex:Province ;
+    rdfs:label "Thanh Hóa Province"@en .
+
+<http://dbpedia.org/resource/Thái_Bình_Province> a ex:Province ;
+    rdfs:label "Thái Bình Province"@en .
+
+<http://dbpedia.org/resource/Thái_Nguyên_Province> a ex:Province ;
+    rdfs:label "Thái Nguyên Province"@en .
+
+<http://dbpedia.org/resource/Thừa_Thiên-Huế_Province> a ex:Province ;
+    rdfs:label "Thừa Thiên-Huế Province"@en .
+
+<http://dbpedia.org/resource/Tiền_Giang_Province> a ex:Province ;
+    rdfs:label "Tiền Giang Province"@en .
+
+<http://dbpedia.org/resource/Trà_Vinh_Province> a ex:Province ;
+    rdfs:label "Trà Vinh Province"@en .
+
+<http://dbpedia.org/resource/Tuyên_Quang_Province> a ex:Province ;
+    rdfs:label "Tuyên Quang Province"@en .
+
+<http://dbpedia.org/resource/Tây_Ninh_Province> a ex:Province ;
+    rdfs:label "Tây Ninh Province"@en .
+
+<http://dbpedia.org/resource/Vĩnh_Long_Province> a ex:Province ;
+    rdfs:label "Vĩnh Long Province"@en .
+
+<http://dbpedia.org/resource/Vĩnh_Phúc_Province> a ex:Province ;
+    rdfs:label "Vĩnh Phúc Province"@en .
+
+<http://dbpedia.org/resource/Yên_Bái_Province> a ex:Province ;
+    rdfs:label "Yên Bái Province"@en .
+
+<http://dbpedia.org/resource/Ái_Châu> a ex:Province ;
+    rdfs:label "Ái Châu"@en .
+
+<http://dbpedia.org/resource/Điện_Biên_Province> a ex:Province ;
+    rdfs:label "Điện Biên Province"@en .
+
+<http://dbpedia.org/resource/Đắk_Lắk_Province> a ex:Province ;
+    rdfs:label "Đắk Lắk Province"@en .
+
+<http://dbpedia.org/resource/Đắk_Nông_Province> a ex:Province ;
+    rdfs:label "Đắk Nông Province"@en .
+
+<http://dbpedia.org/resource/Đồng_Nai_Province> a ex:Province ;
+    rdfs:label "Đồng Nai Province"@en .
+
+<http://dbpedia.org/resource/Đồng_Tháp_Province> a ex:Province ;
+    rdfs:label "Đồng Tháp Province"@en .
+

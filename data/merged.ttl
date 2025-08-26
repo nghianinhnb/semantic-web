@@ -1,0 +1,450 @@
+@prefix ex: <http://example.org/vn/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/An_Giang_Province> a ex:Province ;
+    ex:canonicalLabel "An Giang Province" ;
+    ex:mergedInto <http://example.org/vn/entity/an-giang> .
+
+<http://dbpedia.org/resource/Bà_Rịa-Vũng_Tàu_Province> a ex:Province ;
+    ex:canonicalLabel "Bà Rịa-Vũng Tàu Province" ;
+    ex:mergedInto <http://example.org/vn/entity/thành-phố-hồ-chí-minh> .
+
+<http://dbpedia.org/resource/Bình_Dương_Province> a ex:Province ;
+    ex:canonicalLabel "Bình Dương Province" ;
+    ex:mergedInto <http://example.org/vn/entity/thành-phố-hồ-chí-minh> .
+
+<http://dbpedia.org/resource/Bình_Phước_Province> a ex:Province ;
+    ex:canonicalLabel "Bình Phước Province" ;
+    ex:mergedInto <http://example.org/vn/entity/dồng-nai> .
+
+<http://dbpedia.org/resource/Bình_Thuận_Province> a ex:Province ;
+    ex:canonicalLabel "Bình Thuận Province" ;
+    ex:mergedInto <http://example.org/vn/entity/lâm-dồng> .
+
+<http://dbpedia.org/resource/Bình_Định_Province> a ex:Province ;
+    ex:canonicalLabel "Bình Định Province" ;
+    ex:mergedInto <http://example.org/vn/entity/gia-lai> .
+
+<http://dbpedia.org/resource/Bạc_Liêu_Province> a ex:Province ;
+    ex:canonicalLabel "Bạc Liêu Province" ;
+    ex:mergedInto <http://example.org/vn/entity/cà-mau> .
+
+<http://dbpedia.org/resource/Bắc_Giang_Province> a ex:Province ;
+    ex:canonicalLabel "Bắc Giang Province" ;
+    ex:mergedInto <http://example.org/vn/entity/bắc-ninh> .
+
+<http://dbpedia.org/resource/Bắc_Kạn_Province> a ex:Province ;
+    ex:canonicalLabel "Bắc Kạn Province" ;
+    ex:mergedInto <http://example.org/vn/entity/thái-nguyên> .
+
+<http://dbpedia.org/resource/Bắc_Ninh_Province> a ex:Province ;
+    ex:canonicalLabel "Bắc Ninh Province" ;
+    ex:mergedInto <http://example.org/vn/entity/bắc-ninh> .
+
+<http://dbpedia.org/resource/Bến_Tre_Province> a ex:Province ;
+    ex:canonicalLabel "Bến Tre Province" ;
+    ex:mergedInto <http://example.org/vn/entity/vĩnh-long> .
+
+<http://dbpedia.org/resource/Cao_Bằng_Province> a ex:Province ;
+    ex:canonicalLabel "Cao Bằng Province" ;
+    ex:mergedInto <http://example.org/vn/entity/cao-bằng> .
+
+<http://dbpedia.org/resource/Cà_Mau_Province> a ex:Province ;
+    ex:canonicalLabel "Cà Mau Province" ;
+    ex:mergedInto <http://example.org/vn/entity/cà-mau> .
+
+<http://dbpedia.org/resource/Da_Nang> a ex:Province ;
+    ex:canonicalLabel "Da Nang" ;
+    ex:mergedInto <http://example.org/vn/entity/dà-nẵng> .
+
+<http://dbpedia.org/resource/Gia_Lai_Province> a ex:Province ;
+    ex:canonicalLabel "Gia Lai Province" ;
+    ex:mergedInto <http://example.org/vn/entity/gia-lai> .
+
+<http://dbpedia.org/resource/Haiphong> a ex:Province ;
+    ex:canonicalLabel "Haiphong" ;
+    ex:mergedInto <http://example.org/vn/entity/hải-phòng> .
+
+<http://dbpedia.org/resource/Hanoi> a ex:Province ;
+    ex:canonicalLabel "Hanoi" ;
+    ex:mergedInto <http://example.org/vn/entity/hà-nội> .
+
+<http://dbpedia.org/resource/Ho_Chi_Minh_City> a ex:Province ;
+    ex:canonicalLabel "Ho Chi Minh City" ;
+    ex:mergedInto <http://example.org/vn/entity/thành-phố-hồ-chí-minh> .
+
+<http://dbpedia.org/resource/Hà_Giang_Province> a ex:Province ;
+    ex:canonicalLabel "Hà Giang Province" ;
+    ex:mergedInto <http://example.org/vn/entity/tuyên-quang> .
+
+<http://dbpedia.org/resource/Hà_Nam_Province> a ex:Province ;
+    ex:canonicalLabel "Hà Nam Province" ;
+    ex:mergedInto <http://example.org/vn/entity/ninh-bình> .
+
+<http://dbpedia.org/resource/Hà_Tĩnh_Province> a ex:Province ;
+    ex:canonicalLabel "Hà Tĩnh Province" ;
+    ex:mergedInto <http://example.org/vn/entity/hà-tĩnh> .
+
+<http://dbpedia.org/resource/Hòa_Bình_Province> a ex:Province ;
+    ex:canonicalLabel "Hòa Bình Province" ;
+    ex:mergedInto <http://example.org/vn/entity/phú-thọ> .
+
+<http://dbpedia.org/resource/Hưng_Yên_Province> a ex:Province ;
+    ex:canonicalLabel "Hưng Yên Province" ;
+    ex:mergedInto <http://example.org/vn/entity/hưng-yên> .
+
+<http://dbpedia.org/resource/Hải_Dương_Province> a ex:Province ;
+    ex:canonicalLabel "Hải Dương Province" ;
+    ex:mergedInto <http://example.org/vn/entity/hải-phòng> .
+
+<http://dbpedia.org/resource/Hậu_Giang_Province> a ex:Province ;
+    ex:canonicalLabel "Hậu Giang Province" ;
+    ex:mergedInto <http://dbpedia.org/resource/Cần_Thơ> .
+
+<http://dbpedia.org/resource/Khánh_Hòa_Province> a ex:Province ;
+    ex:canonicalLabel "Khánh Hòa Province" ;
+    ex:mergedInto <http://example.org/vn/entity/khánh-hoà> .
+
+<http://dbpedia.org/resource/Kiên_Giang_Province> a ex:Province ;
+    ex:canonicalLabel "Kiên Giang Province" ;
+    ex:mergedInto <http://example.org/vn/entity/an-giang> .
+
+<http://dbpedia.org/resource/Kon_Tum_Province> a ex:Province ;
+    ex:canonicalLabel "Kon Tum Province" ;
+    ex:mergedInto <http://example.org/vn/entity/quảng-ngãi> .
+
+<http://dbpedia.org/resource/Lai_Châu_Province> a ex:Province ;
+    ex:canonicalLabel "Lai Châu Province" ;
+    ex:mergedInto <http://example.org/vn/entity/lai-châu> .
+
+<http://dbpedia.org/resource/Long_An_Province> a ex:Province ;
+    ex:canonicalLabel "Long An Province" ;
+    ex:mergedInto <http://example.org/vn/entity/tây-ninh> .
+
+<http://dbpedia.org/resource/Lào_Cai_Province> a ex:Province ;
+    ex:canonicalLabel "Lào Cai Province" ;
+    ex:mergedInto <http://example.org/vn/entity/lào-cai> .
+
+<http://dbpedia.org/resource/Lâm_Đồng_Province> a ex:Province ;
+    ex:canonicalLabel "Lâm Đồng Province" ;
+    ex:mergedInto <http://example.org/vn/entity/lâm-dồng> .
+
+<http://dbpedia.org/resource/Lạng_Sơn_Province> a ex:Province ;
+    ex:canonicalLabel "Lạng Sơn Province" ;
+    ex:mergedInto <http://example.org/vn/entity/lạng-sơn> .
+
+<http://dbpedia.org/resource/Nam_Định_Province> a ex:Province ;
+    ex:canonicalLabel "Nam Định Province" ;
+    ex:mergedInto <http://example.org/vn/entity/ninh-bình> .
+
+<http://dbpedia.org/resource/Nghệ_An_Province> a ex:Province ;
+    ex:canonicalLabel "Nghệ An Province" ;
+    ex:mergedInto <http://example.org/vn/entity/nghệ-an> .
+
+<http://dbpedia.org/resource/Ninh_Bình_Province> a ex:Province ;
+    ex:canonicalLabel "Ninh Bình Province" ;
+    ex:mergedInto <http://example.org/vn/entity/ninh-bình> .
+
+<http://dbpedia.org/resource/Ninh_Thuận_Province> a ex:Province ;
+    ex:canonicalLabel "Ninh Thuận Province" ;
+    ex:mergedInto <http://example.org/vn/entity/khánh-hoà> .
+
+<http://dbpedia.org/resource/Phú_Thọ_Province> a ex:Province ;
+    ex:canonicalLabel "Phú Thọ Province" ;
+    ex:mergedInto <http://example.org/vn/entity/phú-thọ> .
+
+<http://dbpedia.org/resource/Phú_Yên_Province> a ex:Province ;
+    ex:canonicalLabel "Phú Yên Province" ;
+    ex:mergedInto <http://example.org/vn/entity/dắk-lắk> .
+
+<http://dbpedia.org/resource/Quảng_Bình_Province> a ex:Province ;
+    ex:canonicalLabel "Quảng Bình Province" ;
+    ex:mergedInto <http://example.org/vn/entity/quảng-trị> .
+
+<http://dbpedia.org/resource/Quảng_Nam_Province> a ex:Province ;
+    ex:canonicalLabel "Quảng Nam Province" ;
+    ex:mergedInto <http://example.org/vn/entity/dà-nẵng> .
+
+<http://dbpedia.org/resource/Quảng_Ngãi_Province> a ex:Province ;
+    ex:canonicalLabel "Quảng Ngãi Province" ;
+    ex:mergedInto <http://example.org/vn/entity/quảng-ngãi> .
+
+<http://dbpedia.org/resource/Quảng_Ninh_Province> a ex:Province ;
+    ex:canonicalLabel "Quảng Ninh Province" ;
+    ex:mergedInto <http://example.org/vn/entity/quảng-ninh> .
+
+<http://dbpedia.org/resource/Quảng_Trị_Province> a ex:Province ;
+    ex:canonicalLabel "Quảng Trị Province" ;
+    ex:mergedInto <http://example.org/vn/entity/quảng-trị> .
+
+<http://dbpedia.org/resource/Sóc_Trăng> a ex:Province ;
+    ex:canonicalLabel "Sóc Trăng" ;
+    ex:mergedInto <http://dbpedia.org/resource/Cần_Thơ> .
+
+<http://dbpedia.org/resource/Sơn_La_Province> a ex:Province ;
+    ex:canonicalLabel "Sơn La Province" ;
+    ex:mergedInto <http://example.org/vn/entity/sơn-la> .
+
+<http://dbpedia.org/resource/Thanh_Hóa_Province> a ex:Province ;
+    ex:canonicalLabel "Thanh Hóa Province" ;
+    ex:mergedInto <http://example.org/vn/entity/thanh-hoá> .
+
+<http://dbpedia.org/resource/Thái_Bình_Province> a ex:Province ;
+    ex:canonicalLabel "Thái Bình Province" ;
+    ex:mergedInto <http://example.org/vn/entity/hưng-yên> .
+
+<http://dbpedia.org/resource/Thái_Nguyên_Province> a ex:Province ;
+    ex:canonicalLabel "Thái Nguyên Province" ;
+    ex:mergedInto <http://example.org/vn/entity/thái-nguyên> .
+
+<http://dbpedia.org/resource/Thừa_Thiên-Huế_Province> a ex:Province ;
+    ex:canonicalLabel "Thừa Thiên-Huế Province" ;
+    ex:mergedInto <http://example.org/vn/entity/huế> .
+
+<http://dbpedia.org/resource/Tiền_Giang_Province> a ex:Province ;
+    ex:canonicalLabel "Tiền Giang Province" ;
+    ex:mergedInto <http://example.org/vn/entity/dồng-tháp> .
+
+<http://dbpedia.org/resource/Trà_Vinh_Province> a ex:Province ;
+    ex:canonicalLabel "Trà Vinh Province" ;
+    ex:mergedInto <http://example.org/vn/entity/vĩnh-long> .
+
+<http://dbpedia.org/resource/Tuyên_Quang_Province> a ex:Province ;
+    ex:canonicalLabel "Tuyên Quang Province" ;
+    ex:mergedInto <http://example.org/vn/entity/tuyên-quang> .
+
+<http://dbpedia.org/resource/Tây_Ninh_Province> a ex:Province ;
+    ex:canonicalLabel "Tây Ninh Province" ;
+    ex:mergedInto <http://example.org/vn/entity/tây-ninh> .
+
+<http://dbpedia.org/resource/Vĩnh_Long_Province> a ex:Province ;
+    ex:canonicalLabel "Vĩnh Long Province" ;
+    ex:mergedInto <http://example.org/vn/entity/vĩnh-long> .
+
+<http://dbpedia.org/resource/Vĩnh_Phúc_Province> a ex:Province ;
+    ex:canonicalLabel "Vĩnh Phúc Province" ;
+    ex:mergedInto <http://example.org/vn/entity/phú-thọ> .
+
+<http://dbpedia.org/resource/Yên_Bái_Province> a ex:Province ;
+    ex:canonicalLabel "Yên Bái Province" ;
+    ex:mergedInto <http://example.org/vn/entity/lào-cai> .
+
+<http://dbpedia.org/resource/Điện_Biên_Province> a ex:Province ;
+    ex:canonicalLabel "Điện Biên Province" ;
+    ex:mergedInto <http://example.org/vn/entity/diện-biên> .
+
+<http://dbpedia.org/resource/Đắk_Lắk_Province> a ex:Province ;
+    ex:canonicalLabel "Đắk Lắk Province" ;
+    ex:mergedInto <http://example.org/vn/entity/dắk-lắk> .
+
+<http://dbpedia.org/resource/Đắk_Nông_Province> a ex:Province ;
+    ex:canonicalLabel "Đắk Nông Province" ;
+    ex:mergedInto <http://example.org/vn/entity/lâm-dồng> .
+
+<http://dbpedia.org/resource/Đồng_Nai_Province> a ex:Province ;
+    ex:canonicalLabel "Đồng Nai Province" ;
+    ex:mergedInto <http://example.org/vn/entity/dồng-nai> .
+
+<http://dbpedia.org/resource/Đồng_Tháp_Province> a ex:Province ;
+    ex:canonicalLabel "Đồng Tháp Province" ;
+    ex:mergedInto <http://example.org/vn/entity/dồng-tháp> .
+
+<http://example.org/vn/entity/cao-bằng> a ex:Province ;
+    rdfs:label "Cao Bằng" ;
+    ex:canonicalLabel "Cao Bằng" ;
+    ex:formedBy <http://dbpedia.org/resource/Cao_Bằng_Province> .
+
+<http://example.org/vn/entity/diện-biên> a ex:Province ;
+    rdfs:label "Điện Biên" ;
+    ex:canonicalLabel "Điện Biên" ;
+    ex:formedBy <http://dbpedia.org/resource/Điện_Biên_Province> .
+
+<http://example.org/vn/entity/huế> a ex:Province ;
+    rdfs:label "Huế" ;
+    ex:canonicalLabel "Huế" ;
+    ex:formedBy <http://dbpedia.org/resource/Thừa_Thiên-Huế_Province> .
+
+<http://example.org/vn/entity/hà-nội> a ex:Province ;
+    rdfs:label "Hà Nội" ;
+    ex:canonicalLabel "Hà Nội" ;
+    ex:formedBy <http://dbpedia.org/resource/Hanoi> .
+
+<http://example.org/vn/entity/hà-tĩnh> a ex:Province ;
+    rdfs:label "Hà Tĩnh" ;
+    ex:canonicalLabel "Hà Tĩnh" ;
+    ex:formedBy <http://dbpedia.org/resource/Hà_Tĩnh_Province> .
+
+<http://example.org/vn/entity/lai-châu> a ex:Province ;
+    rdfs:label "Lai Châu" ;
+    ex:canonicalLabel "Lai Châu" ;
+    ex:formedBy <http://dbpedia.org/resource/Lai_Châu_Province> .
+
+<http://example.org/vn/entity/lạng-sơn> a ex:Province ;
+    rdfs:label "Lạng Sơn" ;
+    ex:canonicalLabel "Lạng Sơn" ;
+    ex:formedBy <http://dbpedia.org/resource/Lạng_Sơn_Province> .
+
+<http://example.org/vn/entity/nghệ-an> a ex:Province ;
+    rdfs:label "Nghệ An" ;
+    ex:canonicalLabel "Nghệ An" ;
+    ex:formedBy <http://dbpedia.org/resource/Nghệ_An_Province> .
+
+<http://example.org/vn/entity/quảng-ninh> a ex:Province ;
+    rdfs:label "Quảng Ninh" ;
+    ex:canonicalLabel "Quảng Ninh" ;
+    ex:formedBy <http://dbpedia.org/resource/Quảng_Ninh_Province> .
+
+<http://example.org/vn/entity/sơn-la> a ex:Province ;
+    rdfs:label "Sơn La" ;
+    ex:canonicalLabel "Sơn La" ;
+    ex:formedBy <http://dbpedia.org/resource/Sơn_La_Province> .
+
+<http://example.org/vn/entity/thanh-hoá> a ex:Province ;
+    rdfs:label "Thanh Hoá" ;
+    ex:canonicalLabel "Thanh Hoá" ;
+    ex:formedBy <http://dbpedia.org/resource/Thanh_Hóa_Province> .
+
+<http://example.org/vn/entity/an-giang> a ex:Province ;
+    rdfs:label "An Giang" ;
+    ex:canonicalLabel "An Giang" ;
+    ex:formedBy <http://dbpedia.org/resource/An_Giang_Province>,
+        <http://dbpedia.org/resource/Kiên_Giang_Province> .
+
+<http://example.org/vn/entity/bắc-ninh> a ex:Province ;
+    rdfs:label "Bắc Ninh" ;
+    ex:canonicalLabel "Bắc Ninh" ;
+    ex:formedBy <http://dbpedia.org/resource/Bắc_Giang_Province>,
+        <http://dbpedia.org/resource/Bắc_Ninh_Province> .
+
+<http://example.org/vn/entity/cà-mau> a ex:Province ;
+    rdfs:label "Cà Mau" ;
+    ex:canonicalLabel "Cà Mau" ;
+    ex:formedBy <http://dbpedia.org/resource/Bạc_Liêu_Province>,
+        <http://dbpedia.org/resource/Cà_Mau_Province> .
+
+<http://example.org/vn/entity/dà-nẵng> a ex:Province ;
+    rdfs:label "Đà Nẵng" ;
+    ex:canonicalLabel "Đà Nẵng" ;
+    ex:formedBy <http://dbpedia.org/resource/Da_Nang>,
+        <http://dbpedia.org/resource/Quảng_Nam_Province> .
+
+<http://example.org/vn/entity/dắk-lắk> a ex:Province ;
+    rdfs:label "Đắk Lắk" ;
+    ex:canonicalLabel "Đắk Lắk" ;
+    ex:formedBy <http://dbpedia.org/resource/Phú_Yên_Province>,
+        <http://dbpedia.org/resource/Đắk_Lắk_Province> .
+
+<http://example.org/vn/entity/dồng-nai> a ex:Province ;
+    rdfs:label "Đồng Nai" ;
+    ex:canonicalLabel "Đồng Nai" ;
+    ex:formedBy <http://dbpedia.org/resource/Bình_Phước_Province>,
+        <http://dbpedia.org/resource/Đồng_Nai_Province> .
+
+<http://example.org/vn/entity/dồng-tháp> a ex:Province ;
+    rdfs:label "Đồng Tháp" ;
+    ex:canonicalLabel "Đồng Tháp" ;
+    ex:formedBy <http://dbpedia.org/resource/Tiền_Giang_Province>,
+        <http://dbpedia.org/resource/Đồng_Tháp_Province> .
+
+<http://example.org/vn/entity/gia-lai> a ex:Province ;
+    rdfs:label "Gia Lai" ;
+    ex:canonicalLabel "Gia Lai" ;
+    ex:formedBy <http://dbpedia.org/resource/Bình_Định_Province>,
+        <http://dbpedia.org/resource/Gia_Lai_Province> .
+
+<http://example.org/vn/entity/hưng-yên> a ex:Province ;
+    rdfs:label "Hưng Yên" ;
+    ex:canonicalLabel "Hưng Yên" ;
+    ex:formedBy <http://dbpedia.org/resource/Hưng_Yên_Province>,
+        <http://dbpedia.org/resource/Thái_Bình_Province> .
+
+<http://example.org/vn/entity/hải-phòng> a ex:Province ;
+    rdfs:label "Hải Phòng" ;
+    ex:canonicalLabel "Hải Phòng" ;
+    ex:formedBy <http://dbpedia.org/resource/Haiphong>,
+        <http://dbpedia.org/resource/Hải_Dương_Province> .
+
+<http://example.org/vn/entity/khánh-hoà> a ex:Province ;
+    rdfs:label "Khánh Hoà" ;
+    ex:canonicalLabel "Khánh Hoà" ;
+    ex:formedBy <http://dbpedia.org/resource/Khánh_Hòa_Province>,
+        <http://dbpedia.org/resource/Ninh_Thuận_Province> .
+
+<http://example.org/vn/entity/lào-cai> a ex:Province ;
+    rdfs:label "Lào Cai" ;
+    ex:canonicalLabel "Lào Cai" ;
+    ex:formedBy <http://dbpedia.org/resource/Lào_Cai_Province>,
+        <http://dbpedia.org/resource/Yên_Bái_Province> .
+
+<http://example.org/vn/entity/quảng-ngãi> a ex:Province ;
+    rdfs:label "Quảng Ngãi" ;
+    ex:canonicalLabel "Quảng Ngãi" ;
+    ex:formedBy <http://dbpedia.org/resource/Kon_Tum_Province>,
+        <http://dbpedia.org/resource/Quảng_Ngãi_Province> .
+
+<http://example.org/vn/entity/quảng-trị> a ex:Province ;
+    rdfs:label "Quảng Trị" ;
+    ex:canonicalLabel "Quảng Trị" ;
+    ex:formedBy <http://dbpedia.org/resource/Quảng_Bình_Province>,
+        <http://dbpedia.org/resource/Quảng_Trị_Province> .
+
+<http://example.org/vn/entity/thái-nguyên> a ex:Province ;
+    rdfs:label "Thái Nguyên" ;
+    ex:canonicalLabel "Thái Nguyên" ;
+    ex:formedBy <http://dbpedia.org/resource/Bắc_Kạn_Province>,
+        <http://dbpedia.org/resource/Thái_Nguyên_Province> .
+
+<http://example.org/vn/entity/tuyên-quang> a ex:Province ;
+    rdfs:label "Tuyên Quang" ;
+    ex:canonicalLabel "Tuyên Quang" ;
+    ex:formedBy <http://dbpedia.org/resource/Hà_Giang_Province>,
+        <http://dbpedia.org/resource/Tuyên_Quang_Province> .
+
+<http://example.org/vn/entity/tây-ninh> a ex:Province ;
+    rdfs:label "Tây Ninh" ;
+    ex:canonicalLabel "Tây Ninh" ;
+    ex:formedBy <http://dbpedia.org/resource/Long_An_Province>,
+        <http://dbpedia.org/resource/Tây_Ninh_Province> .
+
+<http://example.org/vn/entity/lâm-dồng> a ex:Province ;
+    rdfs:label "Lâm Đồng" ;
+    ex:canonicalLabel "Lâm Đồng" ;
+    ex:formedBy <http://dbpedia.org/resource/Bình_Thuận_Province>,
+        <http://dbpedia.org/resource/Lâm_Đồng_Province>,
+        <http://dbpedia.org/resource/Đắk_Nông_Province> .
+
+<http://example.org/vn/entity/ninh-bình> a ex:Province ;
+    rdfs:label "Ninh Bình" ;
+    ex:canonicalLabel "Ninh Bình" ;
+    ex:formedBy <http://dbpedia.org/resource/Hà_Nam_Province>,
+        <http://dbpedia.org/resource/Nam_Định_Province>,
+        <http://dbpedia.org/resource/Ninh_Bình_Province> .
+
+<http://example.org/vn/entity/phú-thọ> a ex:Province ;
+    rdfs:label "Phú Thọ" ;
+    ex:canonicalLabel "Phú Thọ" ;
+    ex:formedBy <http://dbpedia.org/resource/Hòa_Bình_Province>,
+        <http://dbpedia.org/resource/Phú_Thọ_Province>,
+        <http://dbpedia.org/resource/Vĩnh_Phúc_Province> .
+
+<http://example.org/vn/entity/thành-phố-hồ-chí-minh> a ex:Province ;
+    rdfs:label "Thành phố Hồ Chí Minh" ;
+    ex:canonicalLabel "Thành phố Hồ Chí Minh" ;
+    ex:formedBy <http://dbpedia.org/resource/Bà_Rịa-Vũng_Tàu_Province>,
+        <http://dbpedia.org/resource/Bình_Dương_Province>,
+        <http://dbpedia.org/resource/Ho_Chi_Minh_City> .
+
+<http://example.org/vn/entity/vĩnh-long> a ex:Province ;
+    rdfs:label "Vĩnh Long" ;
+    ex:canonicalLabel "Vĩnh Long" ;
+    ex:formedBy <http://dbpedia.org/resource/Bến_Tre_Province>,
+        <http://dbpedia.org/resource/Trà_Vinh_Province>,
+        <http://dbpedia.org/resource/Vĩnh_Long_Province> .
+
+<http://dbpedia.org/resource/Cần_Thơ> a ex:Province ;
+    ex:canonicalLabel "Cần Thơ" ;
+    ex:formedBy <http://dbpedia.org/resource/Cần_Thơ>,
+        <http://dbpedia.org/resource/Hậu_Giang_Province>,
+        <http://dbpedia.org/resource/Sóc_Trăng> ;
+    ex:mergedInto <http://dbpedia.org/resource/Cần_Thơ> .
+

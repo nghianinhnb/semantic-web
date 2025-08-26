@@ -1,0 +1,26 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/vn/ontology#> .
+
+ex:Province a rdfs:Class ;
+  rdfs:label "Province"@en .
+
+ex:mergedInto a rdf:Property ;
+  rdfs:label "merged into"@en ;
+  rdfs:domain ex:Province ;
+  rdfs:range ex:Province .
+
+ex:formedBy a rdf:Property ;
+  rdfs:label "formed by"@en ;
+  rdfs:comment "Indicates a new province formed by one or more old provinces"@en ;
+  rdfs:domain ex:Province ;
+  rdfs:range ex:Province .
+
+ex:canonicalLabel a rdf:Property ;
+  rdfs:label "canonical label"@en ;
+  rdfs:domain ex:Province ;
+  rdfs:range rdfs:Literal .
+
+

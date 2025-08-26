@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Silk>
+  <Prefixes>
+    <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix id="ex" namespace="http://example.org/vn/ontology#"/>
+  </Prefixes>
+
+  <DataSources>
+    <DataSource id="dbpedia" type="file">
+      <Param name="file" value="../data/provinces.ttl"/>
+      <Param name="format" value="Turtle"/>
+    </DataSource>
+
+    <DataSource id="mapping" type="csv">
+      <Param name="file" value="../data/mapping.csv"/>
+      <Param name="separator" value=","/>
+      <Param name="quote" value="\""/>
+      <Param name="header" value="true"/>
+    </DataSource>
+  </DataSources>
+
+  <Interlinks>
+    <!-- Link old_province labels in CSV to ex:Province in RDF by label similarity -->
+    <Interlink id="oldToRdf">
+      <SourceDataset dataSource="mapping" var="m">
+        <DatasetPartitions/>
+      </SourceDataset>
+      <TargetDataset dataSource="dbpedia" var="p">
+        <RestrictTo>
+          ?p rdf:type ex:Province
+        </RestrictTo>
+      </TargetDataset>
+      <LinkCondition>
+        <Aggregate type="max">
+          <Compare metric="levenshtein" threshold="0.9" weight="1.0">
+            <TransformInput function="lowerCase">
+              <!-- Header trong CSV là ' old_province' (có khoảng trắng đầu) -->
+              <Input path="?m/ old_province"/>
+            </TransformInput>
+            <TransformInput function="lowerCase">
+              <Input path="?p/rdfs:label"/>
+            </TransformInput>
+          </Compare>
+        </Aggregate>
+      </LinkCondition>
+      <Outputs>
+        <Output type="file">
+          <Param name="file" value="../data/links_old_to_rdf.nt"/>
+          <Param name="format" value="N-Triples"/>
+          <Param name="predicate" value="ex:mergedInto"/>
+        </Output>
+      </Outputs>
+    </Interlink>
+
+    <!-- Link new_province labels in CSV to ex:Province in RDF by label similarity -->
+    <Interlink id="newToRdf">
+      <SourceDataset dataSource="mapping" var="m">
+        <DatasetPartitions/>
+      </SourceDataset>
+      <TargetDataset dataSource="dbpedia" var="p">
+        <RestrictTo>
+          ?p rdf:type ex:Province
+        </RestrictTo>
+      </TargetDataset>
+      <LinkCondition>
+        <Aggregate type="max">
+          <Compare metric="levenshtein" threshold="0.9" weight="1.0">
+            <TransformInput function="lowerCase">
+              <Input path="?m/new_province"/>
+            </TransformInput>
+            <TransformInput function="lowerCase">
+              <Input path="?p/rdfs:label"/>
+            </TransformInput>
+          </Compare>
+        </Aggregate>
+      </LinkCondition>
+      <Outputs>
+        <Output type="file">
+          <Param name="file" value="../data/links_new_to_rdf.nt"/>
+          <Param name="format" value="N-Triples"/>
+          <Param name="predicate" value="ex:formedBy"/>
+        </Output>
+      </Outputs>
+    </Interlink>
+  </Interlinks>
+</Silk>
+
+
